@@ -840,5 +840,11 @@ img {
     content: attr(data-hover);
     color: #ffffff;
     position: absolute;
+    color: #ffffff;
     transition: transform 0.3s, opacity 0.3s;
+}
+
+.zoom a:hover::before {
+    opacity: 0;
+    transform: scale(0.9);
 }
