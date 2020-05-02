@@ -836,9 +836,8 @@ img {
     font-weight: bold;
 }
 
-.zoom a::before {
+.zoom a :before {
     content: attr(data-hover);
-    color: #ffffff;
     position: absolute;
     color: #ffffff;
     transition: transform 0.3s, opacity 0.3s;
