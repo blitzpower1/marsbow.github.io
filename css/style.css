@@ -58,7 +58,6 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
-    position: relative
 }
 
 img {
@@ -836,14 +835,14 @@ img {
     font-weight: bold;
 }
 
-.zoom a :before {
+.zoom a::before {
     content: attr(data-hover);
-    position: absolute;
     color: #ffffff;
+    position: absolute;
     transition: transform 0.3s, opacity 0.3s;
 }
 
-.zoom a:hover :before {
+.zoom a:hover::before {
     opacity: 0;
     transform: scale(0.9);
 }
